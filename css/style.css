@@ -1,0 +1,277 @@
+body {
+    background-color: #010101;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+h4, h5, h6 {
+    font-family: sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Home Page */
+
+.events {
+    margin-bottom: 120px;
+}
+
+.events-1 {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.btn-home {
+    margin-bottom: 20px;
+}
+
+.home-contents-title {
+    margin-bottom: 40px;
+}
+.home-subtitle {
+    margin-bottom: 20px;
+}
+
+a { 
+    color: white;
+}
+
+a:hover {
+    color: #590BBE;
+    text-decoration: underline;
+    text-shadow: white;
+    
+}
+
+.navbar-brand:hover {
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    background-color: #010101;
+    border-color: aliceblue;
+}
+
+.card-title {
+    color: #010101;
+}
+
+
+.quiz-questions {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: white;
+}
+
+.quiz-results {
+    margin-bottom: 20px;
+}
+
+.quiz-questions-item__question,
+.quiz-results-item__question
+{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 20 px;
+
+}
+
+
+
+.quiz-questions-item__answers,
+.quiz-results-item__answers
+{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        color:white;
+        font-size: 18px;
+        margin-bottom: 20 px;
+    
+}
+
+.quiz-indicator {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.questions--hidden,
+.indicator--hidden,
+.btn-next--hidden {
+    display: none;
+}
+
+.results--visible,
+.btn-restart--visible {
+    display: block;
+}
+
+.home-header {
+    margin-top: 100px;
+}
+
+.events {
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.events._active {
+    transform: translate(0px, 0px);
+    opacity: 1; 
+}
+
+.home-subtitle {
+    margin-bottom: 40px;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.home-subtitle._active {
+    transform: translate(0px, 0px);
+    opacity: 1; 
+}
+    
+
+.home-btn {
+    margin-bottom: 80px;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+}
+.home-btn._active {
+    transform: translate(0px, 0px);
+    opacity: 1; 
+}
+
+.h-header-heading {
+    padding-top: 7%;
+    margin-bottom: 30px;
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+
+}
+.h-header-heading {
+    transform: translate(0px, 0px);
+    opacity: 1; 
+}
+ 
+.carousel {
+    margin-top: 140px;
+    margin-bottom: 80px;
+
+
+}
+
+.btn-mi-primary {
+    margin-bottom: 30px;
+}
+
+.img-fluid {
+    margin-bottom: 10px;
+}
+
+/*contacts page*/
+
+.mi-header {
+    margin-bottom: 180px;
+}
+
+.contacts {
+    margin-top: 40px;
+}
+
+textarea,
+.form-select,
+input {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-top: 15px;
+}
+
+/* Famous persons */
+
+.card { 
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: 12%;
+}
+
+.fp-title {
+     margin-bottom: 80px;
+     margin-top: 45px;
+}
+
+.cards {
+    display: flex;
+    align-self: center;
+}
+
+
+
+.answer--invalid {
+    color: red;
+}
+
+.answer--valid {
+    color: green;
+}
+
+.quiz-questions-item__question {
+    margin-top: 20px;
+}
+
+.quiz-results-item {
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background: #131214;
+}
+
+.footer-row {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-para {
+    margin-bottom: 60px;
+}
+
+.quiz {
+    margin-bottom: 230px;
+}
+
+.btn-primary {
+    margin-top: 20px;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Kazakhstan before independence</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="main_ivents.html">Main ivents</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="famous_persons.html">Famous persons</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" text-white href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item text-white" href="contacts.html">Contacts</a></li>
+                  <li><a class="dropdown-item text-white" href="Quiz.html">Quiz</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="container contacts">
+      <div class="row">
+        <div class="col-12">
+          <h6 class="text-white">Name</h6>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <input type="text" id="first-name" class = "form-control" placeholder="First">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <input type="text" id="second-name" class = "form-control" placeholder="Second">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h6>Adress:</h6>
+          <input type="text" id="adress-1" class = "form-control" placeholder="Adress Line 1">
+          <input type="text" id="adress-2" class = "form-control" placeholder="Adress Line 2">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <input type="text" id="city" class = "form-control" placeholder="City">
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <select class="form-select" aria-label="Default select example">
+            <option selected class="text-white-50">Country</option>
+            <option value="1">Kazakhstan</option>
+            <option value="2">Russia</option>
+            <option value="3">USA</option>
+          </select>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <input type="text" id="zip" class = "form-control" placeholder="ZIP code">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="form-group">
+            <label for="email" class="text-white">Email:</label>
+            <input type="email" class = "form-control" id = "email" placeholder="Enter your email">
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <label for="Phone number" class = "text-white">Phone Number:</label>
+            <input type="text" class = "form-control" id = "phone-number" placeholder = "+77007007070">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <label for="text" class = "text-white">Company:</label>
+          <input type="text" class = "form-control" id = "phone-number" placeholder = "Company">
+        </div>  
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <label for="text" class = "text-white">Comments or questions:</label>
+          <textarea class="form-control" id="message" rows="3"></textarea>
+        </div>
+        <div class="col-12">
+          <input class="btn btn-primary" type="submit" value="Submit">
+        </div>
+      </div>        
+    </div>
+    <footer style = "margin-top: 40px;">
+      <div class="container">
+        <div class="row" style="padding-top: 30px;">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <h5 class="text-white">Rakhat Sadvakasov</h5>
+            <p class = "text-white footer-para">MT-2202 student</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <h5 class="text-white">Wanna collaborate? Contact me</h5>
+            <p class = "text-white footer-para">+77085365197 <br> 
+              sadvakasov.rakhat.2005@gmail.com</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6">
+            <h5 class="text-white">Astana</h5>
+            <p class = "text-white footer-para">Astana IT university <br>
+              sadvakasov.rakhat.2005@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="jquery-3.7.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
